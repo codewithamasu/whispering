@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "esnext",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "sourceMap": false,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "outDir": "dist",
+    "lib": ["es2022"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+  },
+  "include": [
+    "src/**/*.ts",
+    "types/**/*.d.ts",
+    "utils/**/*.ts"
+  ]
+}
